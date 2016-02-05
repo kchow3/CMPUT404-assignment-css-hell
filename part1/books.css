@@ -1,0 +1,32 @@
+/*
+	Append to the end of style tags in html file or link to this file as a stylesheet.
+	Add this link tag to the html for the fonts:
+	<link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+*/
+
+h1 {
+	font-family: 'Calligraffitti', cursive;
+}
+
+h2 {
+	font-family: 'Calligraffitti', cursive;
+}
+
+p {
+	font-family: 'Calligraffitti', cursive;
+}
+
+body {
+	background-color: #E6DC97;
+}
+
+.stanza {
+	font-family: 'Calligraffitti', cursive;
+}
+
+img {
+	 opacity: 0.4;
+	 border-style: groove;
+	 border-width: 30px;
+	 border-color: white;
+}
