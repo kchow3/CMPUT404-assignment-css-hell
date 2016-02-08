@@ -33,6 +33,14 @@ Les Misérables:
 http://www.gutenberg.org/files/135/135-h/135-h.htm
 
 
-Added font as: <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+Added: `<link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>`
+to the html to be able to use custom font
+
+Changes made:
+-changed fonts
+-faded images
+-added borders to images
+-change background color
+
 
 
