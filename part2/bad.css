@@ -1,0 +1,110 @@
+html {
+  cursor: url(./profile_pic_small.jpg), auto;
+}
+
+body {
+  background-color: #66ffff;
+}
+
+/*Spin animation from http://jsfiddle.net/raving/e2tt2mao/ */
+.profile_img {
+	width: 100%;
+	border: 50px outset #99ff66;
+  -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spinnerRotate;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spinnerRotate;
+    -ms-animation-duration: 5s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spinnerRotate
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spinnerRotate
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+
+/* Rainbow text from http://rainbowcoding.com/how-to-create-rainbow-text-in-html-css-javascript/ */
+h1 {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transform: rotate(15deg);
+}
+
+h4 {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transform: rotate(-15deg);
+}
+
+.navbar {
+	background-color: #cc00ff;
+  transform: rotate(-10deg);
+}
+
+.header_verticalspace {
+	padding-top: 3.5%;
+}
+
+.headertext_center {
+	padding-left: 15%;
+	padding-top: 5%;
+}
+
+.headertext_bold {
+	font-weight: bold;
+}
+
+.headertext_off_center {
+	padding-left: 8%;
+}
+
+.panel {
+  background-color: #66ffff;
+  transform: rotate(-10deg);
+}
+
+p {
+  color: #ccff99;
+}
+
+li {
+  color: #ff3300;
+}
+
+li>a{
+  transform: rotate(-10deg);
+  color: #ffffff;
+  cursor: url(./profile_pic_small.jpg), auto;
+}
+
+.panel-default {
+  background-color: #663300;
+}
+
+.panel-default>.panel-heading {
+    background-color: #663300;
+    color: #6600cc;
+}
