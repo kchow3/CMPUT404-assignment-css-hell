@@ -40,28 +40,48 @@ body {
     to{-ms-transform:rotate(360deg);}
 }
 
-/* Rainbow text from http://rainbowcoding.com/how-to-create-rainbow-text-in-html-css-javascript/ */
+/* Rainbow text from http://enjoycss.com/gallery/text_effects/ea */
 h1 {
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  color:transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transform: rotate(15deg);
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: none;
+  font: normal normal bold 30px/normal "Bad Script", Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0);
+  text-align: left;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 0 0 rgb(217,31,38) , 6px 0 0 rgb(226,91,14) , 9px 0 0 rgb(245,221,8) , 12px 0 0 rgb(5,148,68) , 15px 0 0 rgb(2,135,206) , 18px 0 0 rgb(4,77,145) , 21px 0 0 rgb(42,21,113) ;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  /*transform: rotate(15deg);*/
 }
 
 h4 {
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  color:transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  transform: rotate(-15deg);
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: none;
+  font: normal normal bold 30px/normal "Bad Script", Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0);
+  text-align: left;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 0 0 rgb(217,31,38) , 6px 0 0 rgb(226,91,14) , 9px 0 0 rgb(245,221,8) , 12px 0 0 rgb(5,148,68) , 15px 0 0 rgb(2,135,206) , 18px 0 0 rgb(4,77,145) , 21px 0 0 rgb(42,21,113) ;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  /*transform: rotate(-15deg);*/
 }
 
 .navbar {
 	background-color: #cc00ff;
-  transform: rotate(-10deg);
+  /*transform: rotate(-10deg);*/
 }
 
 .header_verticalspace {
@@ -83,7 +103,7 @@ h4 {
 
 .panel {
   background-color: #66ffff;
-  transform: rotate(-10deg);
+  /*transform: rotate(-10deg);*/
 }
 
 p {
@@ -95,7 +115,7 @@ li {
 }
 
 li>a{
-  transform: rotate(-10deg);
+  /*transform: rotate(-10deg);*/
   color: #ffffff;
   cursor: url(./profile_pic_small.jpg), auto;
 }
@@ -107,4 +127,24 @@ li>a{
 .panel-default>.panel-heading {
     background-color: #663300;
     color: #6600cc;
+}
+
+#important_points {
+  background-color: #F2F230;
+}
+
+#about_me {
+  background-color: #DB30C2
+}
+
+#professional_history {
+  background-color: #2D4FD6
+}
+
+#what_can_i_offer {
+  background-color: #36BF32
+}
+
+.nav-tabs {
+  background-color: #F2F230
 }

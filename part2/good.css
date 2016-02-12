@@ -1,9 +1,9 @@
 .profile_img {
-	width: 65%;
+	width: 75%;
 	border: 5px solid white;
 	margin-bottom: -30%;
 	margin-top: 20%;
-	margin-left: 100%;
+	margin-left: 30%;
 }
 
 .navbar {
@@ -11,11 +11,10 @@
 }
 
 .header_verticalspace {
-	padding-top: 3.5%;
+	padding-top: 5%;
 }
 
 .headertext_center {
-	padding-left: 15%;
 	padding-top: 5%;
 }
 
@@ -25,4 +24,8 @@
 
 .headertext_off_center {
 	padding-left: 8%;
+}
+
+#important_points {
+	margin-top: 11%;
 }

@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 
+<!-- Material Design fonts -->
+<!-- https://github.com/FezVrasta/bootstrap-material-design -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/readable/bootstrap.min.css" rel="stylesheet" integrity="sha256-1ROOYEu5qE1d8KD4rRwaA0SiMa6HgZbi8wfdUq2Y4KY= sha512-OF8N9v4J29doCMzg5g0dJ6uz/bnqOaMGz1XFy15YomHPsHAhg52BKTqqi6n7n/Fid2V9CZu2SkyEwivsoUTH7Q==" crossorigin="anonymous">
 
 <link rel="stylesheet" href="bad.css" type="text/css">
 <body>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default container-fluid">
 		<div class="container-fluid">
 			<div class="navbar-header">
 					<div class="row">
-						<div class="col-md-3"><img src="profile_pic.jpg" class="img-rounded profile_img"></div>
+						<div class="col-md-3"><img src="profile_pic.jpg" class="img-responsive img-rounded profile_img"></div>
 						<div class="col-md-9 headertext_center"><h1 class="headertext_bold">Kevin Chow</h1><h4 class="headertext_off_center">- University Student</h4></div>
 					</div>
 			</div>
@@ -24,19 +27,8 @@
 
 			<div class="col-md-3">
 
-				<div class="panel panel-default">
-					<div class="panel-heading">About Me</div>
-					<div class="panel-body">
-						<p>
-							Hey there, my name is Kevin Chow and I am 22 year old software developer from Edmonton, Canada that specializes in web development and ensuring software quality.
-							<br/>
-							Some of my hobbies include playing video games, keeping an active lifestyle and working on different small web projects that include learning/experimenting with new web technologies.
-						</p>
-					</div>
-				</div>
-
-				<div class="panel panel-default">
-					<div class="panel-heading">Important Points</div>
+				<div class="panel panel-default" id="important_points">
+					<div class="panel-heading"><h3>Important Points<h3/></div>
 					<div class="panel-body">
 						<ul>
 							<li>Able to program in Java, Javascript, Python, C#</li>
@@ -61,8 +53,19 @@
 
 				<br/>
 
-				<div class="panel panel-default">
-					<div class="panel-heading">Professional History</div>
+				<div class="panel panel-default" id="about_me">
+					<div class="panel-heading"><h3>About Me<h3/></div>
+					<div class="panel-body">
+						<p>
+							Hey there, my name is Kevin Chow and I am 22 year old software developer from Edmonton, Canada that specializes in web development and ensuring software quality.
+							<br/>
+							Some of my hobbies include playing video games, keeping an active lifestyle and working on different small web projects that include learning/experimenting with new web technologies.
+						</p>
+					</div>
+				</div>
+
+				<div class="panel panel-default" id="professional_history">
+					<div class="panel-heading"><h3>Professional History<h3/></div>
 					<div class="panel-body">
 
 						<p>
@@ -111,8 +114,8 @@
 					</div>
 				</div>
 
-				<div class="panel panel-default">
-					<div class="panel-heading">What can I offer</div>
+				<div class="panel panel-default" id="what_can_i_offer">
+					<div class="panel-heading"><h3>What can I offer<h3/></div>
 					<div class="panel-body">
 						<p>
 							I have experience involving many types of web development technologies from javascript frameworks to asp.net web forms. I am always up for a challenge and always willing to learn to improve my skillset and further my career. I have the mindset of making sure every project I have worked on has quality built in, from the low level of code and tests all the way to the high level of a whole project.
